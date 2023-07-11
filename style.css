@@ -22,7 +22,7 @@ body{
 .banner-item{
     color: #272727;
     font-size: 55px;
-    font-weight: bold;
+    font-weight: 800;
 }
 .description{
     color:rgba(39, 39, 39, 0.60);
@@ -182,7 +182,7 @@ body{
     width: 70%;
     height: 500px;
     margin: auto;
-    background-image: url("images/rectangle\ 9.png");
+    background-image: url("flower asset/Rectangle\ 9.png");
     background-repeat: no-repeat;
     text-align: center;
 }
