@@ -86,12 +86,11 @@ body{
     padding: 65px 60px 40px;
 
 }
-.item-tree{
+.item-pink{
     display: flex;
     justify-content:space-around;
-    gap: 2px;
     align-items: center;
-    margin: 35px 240px 0px 230px;
+    margin: 35px 240px 0px 240px;
 
 }
 /* section-deal related style */
@@ -204,4 +203,7 @@ body{
     font-weight: lighter;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.copy{
+    color: rgb(99, 98, 98);
 }
