@@ -11,7 +11,7 @@ body{
     height: 850px;
     
 }
-.banner-container{
+.banner{
     margin: 30px 240px 0px 240px;
     display: flex;
     justify-content: space-between;
@@ -49,5 +49,31 @@ body{
     width: 500px;
     height: 800px;
     
+}
+.deal{
+    background-color: rgba(229, 84, 115, 0.05);
+    width: 80%;
+    margin: auto;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 190px;
+    
+}
+.deal-title{
+    color: #272727;
+    margin-left: 240px;
+    text-align: center;
+}
+.pic{
+    margin-right: 300px;
+}
+.item{
+    color: #E55473;
+}
+.deal-description{
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 }
