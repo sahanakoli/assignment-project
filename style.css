@@ -8,6 +8,7 @@ body{
 .header{
     background-color:  rgba(229, 84, 115, 0.10);
     height: 850px;
+    width: 100%;
     
 }
 .banner{
@@ -18,9 +19,7 @@ body{
     
     
 }    
-.banner-title{
-    
-}   
+   
 .banner-item{
     color: #272727;
     font-size: 55px;
@@ -42,11 +41,12 @@ body{
     background: #E55473;
     border-radius: 8px;
     border: 0;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
 }
 .flower-pic{
     width: 500px;
     height: 800px;
+    padding-top: 50px;
     
 }
 .section-top{
@@ -80,12 +80,16 @@ body{
     
 }
 .pic-item{
-    padding-top: 60px;
+    padding-top: 80px;
     padding-left: 50px;
 }
 .pic-item-flower{
-    padding: 60px 50px 0px 60px;
+    padding: 110px 50px 60px;
     
+}
+.pic{
+    padding: 65px 60px 60px;
+
 }
 .item-tree{
     display: flex;
@@ -99,8 +103,7 @@ body{
 
 .deal-item{
     background-color: rgba(229, 84, 115, 0.05);
-    width: 80%;
-    margin: auto;
+    width: 100%;
     height: 620px;
     display: flex;
     justify-content: space-between;
@@ -110,18 +113,18 @@ body{
 }
 .deal-title{
     color: #272727;
-    margin-left: 240px;
+    margin-left: 350px;
     text-align: center;
 }
 .pic{
-    margin-right: 300px;
+    margin-right: 350px;
 }
 .item{
     color: #E55473;
-}
+}   
 .deal-description{
     padding: 25px;
-    padding: 25px;
+    
     
 }
 .social-description{
@@ -138,7 +141,33 @@ body{
     height: 396px;
     display: flex;
     justify-content: space-between;
-    margin-left:250px ;
-    margin-right:240px ;
+    align-items: center;
+    margin: 20px 240px 100px 240px;
     gap: 24px;
 }
+.form{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-image: url("flower asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.form-title{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.first{
+    padding-top: 25px;
+}
+.get{
+    font-size: 40px;
+    font-weight: 800;
+}
+.email{
+    width: 600px;
+    height: 50px;
+
+}
+
