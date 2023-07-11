@@ -94,9 +94,9 @@ body{
 }
 .item-pink{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    margin: 35px 240px 0px 240px;
+    margin: 35px 260px 0px 240px;
 
 }
 /* section-deal related style */
@@ -179,8 +179,8 @@ body{
 }
 /* section-form related style */
 .form{
-    width: 70%;
-    height: 500px;
+    width: 1440px;
+    height: 449px;
     margin: auto;
     background-image: url("flower asset/Rectangle\ 9.png");
     background-repeat: no-repeat;
