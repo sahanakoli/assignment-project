@@ -4,28 +4,25 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+    font-family: 'open sans',sans-serif;
 }
+/* header related style */
 .header{
     background-color:  rgba(229, 84, 115, 0.10);
     height: 850px;
     width: 100%;
-    
 }
 .banner{
     margin: 30px 240px 0px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }    
    
 .banner-item{
     color: #272727;
     font-size: 55px;
     font-weight: bold;
-    
-    
 }
 .description{
     color:rgba(39, 39, 39, 0.60);
@@ -33,9 +30,6 @@ body{
     width: 50%;
     padding-top:30px ;
     padding-bottom: 30px;
-    
-    
-    
 }
 .btn{
     background: #E55473;
@@ -49,6 +43,7 @@ body{
     padding-top: 50px;
     
 }
+/* section-top releted style */
 .section-top{
     text-align: center;
     margin-top: 180px;
@@ -88,7 +83,7 @@ body{
     
 }
 .pic{
-    padding: 65px 60px 60px;
+    padding: 65px 60px 40px;
 
 }
 .item-tree{
@@ -99,8 +94,7 @@ body{
     margin: 35px 240px 0px 230px;
 
 }
-
-
+/* section-deal related style */
 .deal-item{
     background-color: rgba(229, 84, 115, 0.05);
     width: 100%;
@@ -109,7 +103,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 190px;
-    
 }
 .deal-title{
     color: #272727;
@@ -124,9 +117,33 @@ body{
 }   
 .deal-description{
     padding: 25px;
-    
-    
 }
+/* section-circle related style */
+.circle-item{
+    background-color:rgba(5, 151, 160, 0.15);
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+}
+.circle{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.circle-description{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.circle-title{
+    margin-right: 240px;
+}
+.circle-title-item{
+    font-size: 35px;
+    font-weight: bold;
+}
+/* section-social related style */
 .social-description{
     padding: 25px;
 }
@@ -145,21 +162,21 @@ body{
     margin: 20px 240px 100px 240px;
     gap: 24px;
 }
+/* section-form related style */
 .form{
     width: 70%;
     height: 500px;
     margin: auto;
-    background-image: url("flower asset/Rectangle\ 9.png");
+    background-image: url("images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     text-align: center;
-    
 }
 .form-title{
     padding-top: 130px;
     padding-bottom: 50px;
 }
 .first{
-    padding-top: 25px;
+    padding-top: 16px;
 }
 .get{
     font-size: 40px;
@@ -168,6 +185,5 @@ body{
 .email{
     width: 600px;
     height: 50px;
-
 }
 
