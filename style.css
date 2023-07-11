@@ -166,7 +166,7 @@ body{
     width: 70%;
     height: 500px;
     margin: auto;
-    background-image: url("images/Rectangle\ 9.png");
+    background-image: url("images/rectangle\ 9.png");
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -205,5 +205,5 @@ body{
     padding-bottom: 25px;
 }
 .copy{
-    color: rgb(99, 98, 98);
+   color: rgb(99, 98, 98);
 }
